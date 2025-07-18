@@ -1,6 +1,6 @@
 export class Cliente {
 
-    id?:number;
+    id:number = 0;
     nome:string = "";
     idade: number = 0;
     cidade:string = "";
